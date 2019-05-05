@@ -1,0 +1,21 @@
+{
+  "name": "webcomponents-quickstart",
+  "version": "1.0.0",
+  "description": "webcomponents with runtime EsNext transpilation by simple example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "./node_modules/http-server/bin/http-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@webcomponents/webcomponentsjs": "^2.2.10",
+    "babel-polyfill": "6.26.0",
+    "systemjs": "^3.1.6",
+    "systemjs-transform-babel": "^0.1.2"
+  },
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
+}
